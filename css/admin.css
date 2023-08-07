@@ -1,0 +1,168 @@
+body{
+    background-color: white;
+
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: black;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding: 0;
+
+}
+
+img{
+    max-width: 15%;
+}
+
+.header{
+    background-color: #333;
+    justify-content: center;
+    display: flex;
+}
+
+.header__logo{
+    padding: 20px;
+    margin: auto;
+    display: block;
+    
+}
+
+.footer{
+    background-color: #333;;
+    text-align: center;
+    padding: 10px 0;
+    height: 60px;
+}
+
+
+.footer__texto{
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.navegacion{
+    background-color: #444;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navegacion__enlace{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navegacion__enlace--activo,
+.navegacion__enlace:hover{
+    background-color: #555;
+}
+
+.boton {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    border-spacing: 10px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: black;
+    color: white;
+    
+}
+
+td {
+    border: 1px solid #ccc;
+}
+
+.contenedor {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 15px;
+    font-family: Helvetica;
+
+}
+
+.campo {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.contenedor__input  {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contenedor__boton {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contenedor__boton:hover {
+    background-color: #444;
+}
+
+.regresar {
+    background-color: #444;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.regresar:hover {
+    background-color: #c49d01;
+}

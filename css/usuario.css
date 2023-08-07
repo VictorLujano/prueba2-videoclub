@@ -1,0 +1,147 @@
+body{
+    background-color: white;
+
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: black;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding: 0;
+
+}
+
+img{
+    max-width: 15%;
+}
+
+.header{
+
+    justify-content: center;
+    display: flex;
+    background-color: seagreen;
+}
+
+.header__logo{
+    padding: 20px;
+    margin: auto;
+    display: block;
+    
+}
+
+.footer{
+    background-color: seagreen;
+    text-align: center;
+    padding: 10px 0;
+    height: 60px;
+    
+}
+
+
+.footer__texto{
+    text-align: center;
+    color: white;
+}
+
+.navegacion{
+    background-color: cadetblue;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navegacion__enlace{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+
+.navegacion__enlace--activo,
+.navegacion__enlace:hover{
+    color: black;
+}
+
+.featured-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-item {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+}
+
+.content-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.boton {
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/**------------------------------*/
+
+
+.catalogo {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.lista-catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contenido-catalogo {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    margin-top: 0;
+}
+
+
+
+.contenido-catalogo p {
+    margin: 5px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Cambia estos colores y estilos según tus preferencias */
